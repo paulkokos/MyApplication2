@@ -26,12 +26,6 @@ cache:
     - $HOME/.gradle/wrapper/
     - $HOME/.android/build-cache
 
-notifications:
-  slack:
-    rooms:
-      - hackathoncompetition:WtrnhH7c6e647cxmTmj5YngE#general
-      - hackathoncompetition:WtrnhH7c6e647cxmTmj5YngE#random
-
   notifications:
      slack: hackathoncompetition:pwMnIRAKAAq3c27Vxshs2NTA
 
