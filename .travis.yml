@@ -32,13 +32,9 @@ notifications:
       - hackathoncompetition:WtrnhH7c6e647cxmTmj5YngE#general
       - hackathoncompetition:WtrnhH7c6e647cxmTmj5YngE#random
 
- notifications:
-  slack:
-    rooms:
-      - hackathoncompetition:3w5gXUWtuSdDkLNvzUN7wqqF#general
-      - hackathoncompetition:3w5gXUWtuSdDkLNvzUN7wqqF#random
+  notifications:
+     slack: hackathoncompetition:pwMnIRAKAAq3c27Vxshs2NTA
 
-travis encrypt "hackathoncompetition:3w5gXUWtuSdDkLNvzUN7wqqF" --add notifications.slack.rooms
 
 
 
