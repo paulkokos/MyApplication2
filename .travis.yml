@@ -13,6 +13,8 @@ before_install:
 
 install:
 - cd ${TRAVIS_BUILD_DIR}
+- ant deps
+
 # install latest LCOV (1.9 was failing for me) [1]
 
 - wget http://ftp.de.debian.org/debian/pool/main/l/lcov/lcov_1.11.orig.tar.gz
@@ -25,6 +27,10 @@ install:
 before_script: 
 - cd ${TRAVIS_BUILD_DIR}
 - lcov --directory . --zerocounters
+- echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
 
 script:
 - "./gradlew test"
