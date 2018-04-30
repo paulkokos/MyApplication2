@@ -8,6 +8,7 @@ language: android
    - build-tools-27.0.3
    - android-27
    - extra-google-m2repository
+
  before_install:
  - yes | sdkmanager "platforms;android-27"
 
@@ -26,12 +27,12 @@ notifications:
     secure: lv9JBksxds2KxTezn/T6f2DSi/Fi/gtd3AKrhMEo6UZyE7VD6u5nJNek6WptTejcYnzBqKLaZ+EpFCg1RFCtiQWYJT3LmkH9X0xdBbYDYLJjlUvD6yw/zufiJdatRQGnNiC/5MreT3U559XANmcPbimV+iLihdFVqPamUxPHXvcZ1KGd94Suw8GHH1hfmIitiT43UckjS6fYmDTiJeM9f1ApPFEKMFhmdp7DMdptXa1MBczSMAKWrd9blDVX263xDVh1K+Jb+lhLLj7qSRhSUrRqWBlS127WJo0GkWSyeiDkWlL9J+oQgd5mXNRiUsYiFQcCZem4F1YnvoHXzic8zZjKOzZmakEOPcFPwSmY5aIIaUJ7rSUphUstUHtnmEiFEnQ1dEMMupEc4JITO8DTtIyQ+nk44k1mBwL7/ctywkU/Wu6xXf2NKGEuHk3bQ73Neop7d7s7ids7tdLtj6T/bCQGxF/WDzVQ8+0QNAqT/WKW0D3BPUKXj3QXdC8SyHO9DplVIdjR9WlMp7/Wap+jJbEP/d1gakJB89zov6bjkWs4menMjIMkobyFVWsuqippE1hNP5c2YkpjR82oLQX4UN8RzU6sgQZlENvb7E+Y9voqeTSLaJ3GWaqWaosi0p5DzPyA9F3FeSb/5JLOBQ+Ah418U1oH/QnGjCenNjLSSQk=
 #
 #
-#Coverity
-env:
-  global:
-    # COVERITY_SCAN_TOKEN
-    # ** specific to your project **
-    - secure: lv9JBksxds2KxTezn/T6f2DSi/Fi/gtd3AKrhMEo6UZyE7VD6u5nJNek6WptTejcYnzBqKLaZ+EpFCg1RFCtiQWYJT3LmkH9X0xdBbYDYLJjlUvD6yw/zufiJdatRQGnNiC/5MreT3U559XANmcPbimV+iLihdFVqPamUxPHXvcZ1KGd94Suw8GHH1hfmIitiT43UckjS6fYmDTiJeM9f1ApPFEKMFhmdp7DMdptXa1MBczSMAKWrd9blDVX263xDVh1K+Jb+lhLLj7qSRhSUrRqWBlS127WJo0GkWSyeiDkWlL9J+oQgd5mXNRiUsYiFQcCZem4F1YnvoHXzic8zZjKOzZmakEOPcFPwSmY5aIIaUJ7rSUphUstUHtnmEiFEnQ1dEMMupEc4JITO8DTtIyQ+nk44k1mBwL7/ctywkU/Wu6xXf2NKGEuHk3bQ73Neop7d7s7ids7tdLtj6T/bCQGxF/WDzVQ8+0QNAqT/WKW0D3BPUKXj3QXdC8SyHO9DplVIdjR9WlMp7/Wap+jJbEP/d1gakJB89zov6bjkWs4menMjIMkobyFVWsuqippE1hNP5c2YkpjR82oLQX4UN8RzU6sgQZlENvb7E+Y9voqeTSLaJ3GWaqWaosi0p5DzPyA9F3FeSb/5JLOBQ+Ah418U1oH/QnGjCenNjLSSQk=
+##Coverity
+#env:
+#  global:
+#    # COVERITY_SCAN_TOKEN
+#    # ** specific to your project **
+#    - secure: lv9JBksxds2KxTezn/T6f2DSi/Fi/gtd3AKrhMEo6UZyE7VD6u5nJNek6WptTejcYnzBqKLaZ+EpFCg1RFCtiQWYJT3LmkH9X0xdBbYDYLJjlUvD6yw/zufiJdatRQGnNiC/5MreT3U559XANmcPbimV+iLihdFVqPamUxPHXvcZ1KGd94Suw8GHH1hfmIitiT43UckjS6fYmDTiJeM9f1ApPFEKMFhmdp7DMdptXa1MBczSMAKWrd9blDVX263xDVh1K+Jb+lhLLj7qSRhSUrRqWBlS127WJo0GkWSyeiDkWlL9J+oQgd5mXNRiUsYiFQcCZem4F1YnvoHXzic8zZjKOzZmakEOPcFPwSmY5aIIaUJ7rSUphUstUHtnmEiFEnQ1dEMMupEc4JITO8DTtIyQ+nk44k1mBwL7/ctywkU/Wu6xXf2NKGEuHk3bQ73Neop7d7s7ids7tdLtj6T/bCQGxF/WDzVQ8+0QNAqT/WKW0D3BPUKXj3QXdC8SyHO9DplVIdjR9WlMp7/Wap+jJbEP/d1gakJB89zov6bjkWs4menMjIMkobyFVWsuqippE1hNP5c2YkpjR82oLQX4UN8RzU6sgQZlENvb7E+Y9voqeTSLaJ3GWaqWaosi0p5DzPyA9F3FeSb/5JLOBQ+Ah418U1oH/QnGjCenNjLSSQk=
 
 
 #addons:
